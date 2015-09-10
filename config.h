@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char font[] = "Droid Sans Mono:pixelsize=15:antialias=true:autohint=true";
-static int borderpx = 2;
+static int borderpx = 5;
 static char shell[] = "/bin/sh";
 static char *utmp = NULL;
 static char stty_args[] = "stty raw -echo -iexten echonl";
